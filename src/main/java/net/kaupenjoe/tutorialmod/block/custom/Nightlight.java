@@ -36,7 +36,7 @@ public class Nightlight extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if(entity instanceof ItemEntity itemEntity) {
-            if(itemEntity.getStack().getItem() == Items.COPPER_INGOT) {
+            if(itemEntity.getStack().getItem() == Items.IRON_NUGGET) {
                 itemEntity.setStack(new ItemStack(ModItems.MIDNIGHTIUM_SCRAP, itemEntity.getStack().getCount()));
             }
         }
