@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "@'@",
+    "@@@"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:bright_diamond"
+    },
+    "'": {
+      "item": "minecraft:crafting_table"
+    },
+    "@": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "id": "tutorialmod:daylight",
+    "count": 1
+  }
+}

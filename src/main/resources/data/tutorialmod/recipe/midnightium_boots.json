@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "~ ~",
+    "~ ~"
+  ],
+  "key":{
+    "~": {
+      "item": "tutorialmod:midnightium_ingot"
+    }
+  },
+
+  "result": {
+    "id": "tutorialmod:midnightium_boots",
+    "count": 1
+  }
+}

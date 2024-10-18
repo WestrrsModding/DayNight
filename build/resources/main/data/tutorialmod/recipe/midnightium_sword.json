@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "~"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:midnightium_ingot"
+    },
+    "~": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "tutorialmod:midnightium_sword",
+    "count": 1
+  }
+}

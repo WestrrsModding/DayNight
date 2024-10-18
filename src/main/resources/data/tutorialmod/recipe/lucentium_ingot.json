@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#~#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:lucentium_scrap"
+    },
+    "~": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "id": "tutorialmod:lucentium_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,50 @@
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/summon minecraft:ravager
+/give @s minecraft:ravager_spawn_egg
+/give @a minecraft:ravager_spawn_egg
+/summon minecraft:ravager
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/kill
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/experience set Player496 300
+/experience add Player496 300
+/experience set Player496 3000
+/experience add Player496 30000
+/time set day
+/gamemode creative
+/gamemode survival
+/give Player739 minecraft:diamond_pickaxe
+/gamemode creative
+/time set night
+/gamemode survival
+/time set day
+/gamemode creative
+/summon minecraft:ravager
+/gamemode survival
+/give Player976 minecraft:zombie_spawn_egg 64
+/time set night
+/gamemode creative
+/time set day
+/gamemode survivals
+/gamemode survival
+/gamemode creative
+/time set night
+/time set day
+/time set midnight
+/gamemode survival
+/summon minecraft:ravager
+/gamemode creative
+/gamemode survival
+/give Player64 minecraft:enchanted_golden_apple 64
