@@ -23,6 +23,7 @@ public class ModArmorItem extends ArmorItem {
                     .put(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 1, 1, false, false),
                                     new StatusEffectInstance(StatusEffects.STRENGTH, 1, 1, false, false)))
+
                     .put(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL,
                             List.of(new StatusEffectInstance(StatusEffects.SATURATION, 1, 0, false, false),
                                     new StatusEffectInstance(StatusEffects.JUMP_BOOST, 1, 1, false, false),

@@ -8,10 +8,10 @@
 		"Westrr"
 	],
 	"contact": {
-		"homepage": "https://kaupenjoe.net",
-		"sources": "https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.21.X"
+		"homepage": "",
+		"sources": "https://github.com/WestrrsModding/DayNight"
 	},
-	"license": "MIT",
+	"license": "All Rights Reserved",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
