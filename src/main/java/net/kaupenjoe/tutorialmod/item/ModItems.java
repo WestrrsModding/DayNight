@@ -17,29 +17,29 @@ public class ModItems {
     public static final Item LUCENTIUM_SCRAP = registerItem( "lucentium_scrap", new Item(new Item.Settings()));
 
     public static final Item MIDNIGHTIUM_HELMET = registerItem("midnightium_helmet",
-            new ArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(50))));
     public static final Item MIDNIGHTIUM_CHESTPLATE = registerItem("midnightium_chestplate",
             new ModArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(60))));
     public static final Item MIDNIGHTIUM_LEGGINGS = registerItem("midnightium_leggings",
-            new ArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(55))));
     public static final Item MIDNIGHTIUM_BOOTS = registerItem("midnightium_boots",
-            new ArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                 .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(47))));
 
     public static final Item LUCENTIUM_HELMET = registerItem("lucentium_helmet",
-            new ArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
                     .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(50))));
     public static final Item LUCENTIUM_CHESTPLATE = registerItem("lucentium_chestplate",
-            new ArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
                     .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(60))));
     public static final Item LUCENTIUM_LEGGINGS = registerItem("lucentium_leggings",
-            new ArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(55))));
     public static final Item LUCENTIUM_BOOTS = registerItem("lucentium_boots",
-            new ArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+            new ModArmorItem(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(47))));
 
     public static final Item MIDNIGHTIUM_SWORD = registerItem("midnightium_sword",

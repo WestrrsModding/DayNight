@@ -1,7 +1,5 @@
 package net.kaupenjoe.tutorialmod.item.custom;
 
-import net.minecraft.item.ArmorItem;
-
 import com.google.common.collect.ImmutableMap;
 import net.kaupenjoe.tutorialmod.item.ModArmorMaterials;
 import net.minecraft.entity.Entity;
@@ -20,15 +18,8 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>())
-                    .put(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.RESISTANCE, 1, 1, false, false),
-                                    new StatusEffectInstance(StatusEffects.STRENGTH, 1, 1, false, false)))
-
-                    .put(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.SATURATION, 1, 0, false, false),
-                                    new StatusEffectInstance(StatusEffects.JUMP_BOOST, 1, 1, false, false),
-                                    new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1, 0, false, false)))
-                    .build();
+                    .put(ModArmorMaterials.MIDNIGHTIUM_ARMOR_MATERIAL, List.of(new StatusEffectInstance(StatusEffects.RESISTANCE,1, 1,false,false, true), new StatusEffectInstance(StatusEffects.STRENGTH, 1, 1, false, false, true)))
+                    .put(ModArmorMaterials.LUCENTIUM_ARMOR_MATERIAL, List.of(new StatusEffectInstance(StatusEffects.JUMP_BOOST,1, 1,false,false, true), new StatusEffectInstance(StatusEffects.SATURATION,1, 0,false,false, true), new StatusEffectInstance(StatusEffects.WATER_BREATHING,1, 0,false,false, true))).build();
 
     public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
         super(material, type, settings);
